@@ -1,9 +1,7 @@
 import View from './View.js';
-// import icons from 'url:../../img/icons.svg';
 
 class AddRecipeView extends View {
   _parentEl = document.querySelector('.upload');
-  // _errorMessage = 'No recipes found for your query! Please try again :)';
   _message = 'Recipe was successfully uploaded :)';
 
   _overlay = document.querySelector('.overlay');
