@@ -9,6 +9,11 @@
   },
   "author": "Ivan Petrovic",
   "license": "ISC",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
   "devDependencies": {
     "parcel": "^2.0.0-beta.1",
     "sass": "^1.26.10"
